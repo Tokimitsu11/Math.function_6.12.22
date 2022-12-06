@@ -30,7 +30,7 @@ int [] arr = new int[10];
         while (true){  //Endless cycle classic
             System.out.println("working");
             System.out.println("Enter operation: \n" + "multiply - *\n" + "Divide - /\n" + "power - ^\n" +
-                    "Sqrt - S\n" + "Exit - e \n"); //вариантв
+                    "Sqrt - S\n" + "Exit - e \n"); //варианты
             char ch = scanner.next().charAt(0); //считываем
         if(ch == '*') {
             System.out.println("Enter first number");
